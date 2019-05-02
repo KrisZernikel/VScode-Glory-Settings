@@ -1,0 +1,100 @@
+{
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.fontSize": 14,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.useExperimentalGridLayout": true,
+  "window.nativeTabs": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.useExperimentalFileWatcher": true,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.statusBar.visible": false,
+  "workbench.tips.enabled": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "window.titleBarStyle": "native",
+  "search.location": "panel",
+  "debug.allowBreakpointsEverywhere": true,
+  "terminal.integrated.fontSize": 14,
+  "workbench.colorTheme": "Monokai",
+  "workbench.colorCustomizations": {
+    "[Monokai]": {
+      "terminal.background": "#1e1f1c",
+      "terminal.foreground": "#5bff4d"
+    }
+  },
+
+  "editor.tokenColorCustomizations": {
+    "[Monokai]": {
+      "functions": "#5bff4d",
+      "textMateRules": [
+        {
+          "name": "Class name",
+          "scope": "entity.name.type, entity.name.class",
+          "settings": {
+            "fontStyle": "underline",
+            "foreground": "#5bff4d"
+          }
+        },
+        {
+          "name": "Inherited class",
+          "scope": "entity.other.inherited-class",
+          "settings": {
+            "fontStyle": "italic underline",
+            "foreground": "#5bff4d"
+          }
+        },
+        {
+          "name": "Function name",
+          "scope": "entity.name.function",
+          "settings": {
+            "fontStyle": "",
+            "foreground": "#5bff4d"
+          }
+        },
+        {
+          "name": "Tag attribute",
+          "scope": "entity.other.attribute-name",
+          "settings": {
+            "fontStyle": "",
+            "foreground": "#5bff4d"
+          }
+        },
+        {
+          "name": "diff.inserted",
+          "scope": "markup.inserted",
+          "settings": {
+            "foreground": "#5bff4d"
+          }
+        },
+        {
+          "name": "Markup Headings",
+          "scope": "markup.heading",
+          "settings": {
+            "foreground": "#5bff4d"
+          }
+        },
+        {
+          "name": "Markup Setext Header",
+          "scope": "markup.heading.setext",
+          "settings": {
+            "fontStyle": "",
+            "foreground": "#5bff4d"
+          }
+        }
+      ]
+    }
+  },
+  "scm.alwaysShowProviders": true,
+  "extensions.ignoreRecommendations": true,
+  "search.showLineNumbers": true,
+  "search.usePCRE2": true,
+  "python.jediEnabled": false
+}
