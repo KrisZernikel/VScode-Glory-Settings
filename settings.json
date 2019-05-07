@@ -2,24 +2,19 @@
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.fontSize": 14,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.useExperimentalGridLayout": true,
-  "window.nativeTabs": true,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "files.useExperimentalFileWatcher": true,
-  "workbench.statusBar.feedback.visible": false,
-  "workbench.statusBar.visible": false,
   "workbench.tips.enabled": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.enablePreview": false,
   "workbench.settings.enableNaturalLanguageSearch": false,
-  "window.titleBarStyle": "native",
   "search.location": "panel",
   "debug.allowBreakpointsEverywhere": true,
   "terminal.integrated.fontSize": 14,
@@ -30,7 +25,6 @@
       "terminal.foreground": "#5bff4d"
     }
   },
-
   "editor.tokenColorCustomizations": {
     "[Monokai]": {
       "functions": "#5bff4d",
@@ -96,5 +90,16 @@
   "extensions.ignoreRecommendations": true,
   "search.showLineNumbers": true,
   "search.usePCRE2": true,
-  "python.jediEnabled": false
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
